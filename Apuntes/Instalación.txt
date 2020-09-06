@@ -1,0 +1,24 @@
+NodeJS:
+    Arch = sudo pacman -S nodejs
+    version = node -v
+    
+Actualizar node y npm:
+    sudo npm cache clean -f
+    sudo npm install -g n
+    sudo n stable
+    npm update npm -g
+        
+TypeScript:
+    sudo npm install -g typescript
+    rsc -v
+    
+    el -g en un comando npm significa que ese comando se debe ejecutar como administrador
+    
+Angular CLI
+
+    sudo npm install -g @angular/cli
+    ng -v
+    ng --version
+    
+Ionic
+    sudo npm install -g ionic
