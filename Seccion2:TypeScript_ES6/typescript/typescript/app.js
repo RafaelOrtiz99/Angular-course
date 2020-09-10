@@ -1,8 +1,16 @@
 "use strict";
 (function () {
-    var name = 'name';
-    if (true) {
-        var name_1 = 'name1';
-    }
-    console.log(name);
+    var message = 'Hi';
+    var number = 234;
+    var bool = false;
+    var today = new Date();
+    var anything;
+    anything = message;
+    anything = number;
+    anything = bool;
+    anything = today;
+    var spiderman = {
+        name: 'Peter',
+        age: 30
+    };
 })();

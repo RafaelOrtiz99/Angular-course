@@ -1,9 +1,20 @@
 (function(){
 
-    var name = 'name';
+   let message: string = 'Hi';
+   let number: number = 234;
+   let bool: boolean = false;
+   let today: Date = new Date();
 
-    if(true) { let name='name1'}
+   let anything: string | number | boolean | Date;
 
-    console.log(name);
+   anything = message;
+   anything = number;
+   anything = bool;
+   anything = today;
+
+   let spiderman = {
+        name: 'Peter',
+        age: 30 
+   }
     
 })();
