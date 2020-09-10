@@ -1,9 +1,8 @@
+"use strict";
 (function () {
-    function saludar(nombre) {
-        console.table('Hola ' + nombre); // Hola Logan
+    var name = 'name';
+    if (true) {
+        var name_1 = 'name1';
     }
-    var wolverine = {
-        nombre: 'Logan'
-    };
-    saludar(wolverine.nombre);
+    console.log(name);
 })();
