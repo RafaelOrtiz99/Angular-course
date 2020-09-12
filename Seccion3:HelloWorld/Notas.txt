@@ -1,0 +1,44 @@
+Estructuras de las carpetas:
+e2e = Carpeta donde se encuentran recursos para la realización de pruebas.
+
+node_modules = dependencias que se instalan para que sirva la aplicación en desarrollo, no es necesaria llevarla a producción, para generarla  se utiliza npm install.
+
+.editorconfig = archivo con configuraciones del editor, no es muy importante.
+
+.gitignore = archivo que dice que archivos se ignoren al hacer un backup del repositorio.
+
+angular.json = archivo que dice a Angular como es la aplicación y como funciona, basicamente se modifica en assets, styles y scripts.
+
+package-lock.json = Dice a la aplicación de Node,como fue creado el pacage.json, ese archivo no se toca manualmente.
+
+package.json = Archivo importante, se debe modificar con cuidado, se va creando de manera automatica, este le dice a Angular que dependencias va a necesitar nuestra aplicacion cuando se pase a producción.
+
+Las dependencias de desarrollo, son dependencias que se utilizan únicamente al crear la aplicación
+
+README.md = archivo automatico, dice como funciona la aplicacion, no afecta en nada.Ayuda a que se renderice en git
+
+tscongif.json = archivo de configración de typescript
+tslint.json = archiv que nos fuerza a escribir codigo más limpio de javascript y typescript
+
+
+src = carpeta con el codigo fuente del proyecto. En la carpeta app, viene la app, que tiene la primera aplicación de Angular. app.component es el primer componente que la aplicacion va a cargar
+
+Los archivos spec son de pruebas automaticas
+carpeta ssets: Por lo general se guardan recursos estaticos, como imagenes, entre otras.
+
+enviroments tiene variables de ambiente de producción y de desarrollo.
+
+browserlist = mejor ajuste de CSS, no es muy necesario.
+
+karma.conf = archivo de configuracion de pruebas de karma
+
+main.ts = primer código que Angular va a lanzar para ejecutar la aplicación
+
+plattformBrowserDynamic = ayuda a crear apliación web
+polyfills.ts = ayuda a la compatibilidad en versiones antiguas de navegadores web.
+
+styles.css = estilos globales
+
+tscongic.app.json = especificaciones propias de la aplicación
+tscongig-spec = especificaciones para pruebas.
+tslint.json = forma en que se presentan errores al escribir código
