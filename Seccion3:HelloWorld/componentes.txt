@@ -1,0 +1,1 @@
+Generar componente automaticamente: ng g c component-path (ej. /app/footer) 
