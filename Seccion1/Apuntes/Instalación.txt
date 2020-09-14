@@ -10,7 +10,7 @@ Actualizar node y npm:
         
 TypeScript:
     sudo npm install -g typescript
-    rsc -v
+    tsc -v
     
     el -g en un comando npm significa que ese comando se debe ejecutar como administrador
     
