@@ -6,7 +6,7 @@ Actualizar node y npm:
     sudo npm cache clean -f
     sudo npm install -g n
     sudo n stable
-    npm update npm -g
+    sudo npm update npm -g
         
 TypeScript:
     sudo npm install -g typescript
