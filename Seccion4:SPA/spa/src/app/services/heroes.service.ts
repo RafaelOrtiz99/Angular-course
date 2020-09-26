@@ -70,7 +70,6 @@ export class HeroesService {
     }
 
     searchHeroes(term: string): Heroe[]{
-
       let heroes_array: Heroe[] = [];
       term = term.toLowerCase();
 
